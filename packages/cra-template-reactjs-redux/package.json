@@ -1,0 +1,29 @@
+{
+    "name": "cra-template-reactjs-redux",
+    "version": "1.0.0",
+    "description": "The reactjs-redux template for Create React App.",
+    "author": "The Tech Devs | https://github.com/thetechdevs",
+    "keywords": [
+      "react",
+      "create-react-app",
+      "template",
+      "thetechdevs",
+      "reactjs-redux"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/thetechdevs/template.git",
+      "directory": "packages/cra-template-reactjs-redux"
+    },
+    "license": "MIT",
+    "engines": {
+      "node": ">=10"
+    },
+    "bugs": {
+      "url": "https://github.com/thetechdevs/template/issues"
+    },
+    "files": [
+      "template",
+      "template.json"
+    ]
+  }
