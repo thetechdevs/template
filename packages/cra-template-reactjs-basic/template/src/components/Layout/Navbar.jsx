@@ -15,8 +15,8 @@ const Navbar = () => (
             <NavLink exact to="/" onHover={<Home />} activeClassName={styles.selected}>
                 Home
             </NavLink>
-            <NavLink exact to="/result" onHover={<About />} activeClassName={styles.selected}>
-                Result
+            <NavLink exact to="/about" onHover={<About />} activeClassName={styles.selected}>
+                About
             </NavLink>
         </section>
     </main>
