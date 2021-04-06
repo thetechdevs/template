@@ -2,7 +2,7 @@
 
 This project was created with [reactjs-basic](https://github.com/thetechdevs/template) template of `create-react-app`.
 
-Your React project will lint and format automatically according to popular airbnb style guide. To do this use **`ctrl+s` or `cmd+s`**
+Your React project will lint and format automatically according to popular airbnb style guide. To do this use **`ctrl+s`** or **`cmd+s`**
 
 ## How use this template?
 
@@ -52,8 +52,8 @@ Please follow the below instructions to run this project in your computer:
 
 4. Your app should be available in
 
-- http://localhost:3000 `(if you use yarn start)`
-- http://localhost:1234 `(if you use yarn dev)`
+    - http://localhost:3000 `(if you use yarn start)`
+    - http://localhost:1234 `(if you use yarn dev)`
 
 ### Set Line Breaks
 
