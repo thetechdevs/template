@@ -1,6 +1,6 @@
 {
   "name": "reactjs-basic",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -20,9 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier",
-    "vscode": "code --install-extension shalldie.background dracula-theme.theme-dracula --force && code --install-extension dracula-theme.theme-dracula --force && code --install-extension pkief.material-icon-theme --force && code --install-extension dbaeumer.vscode-eslint --force && code --install-extension esbenp.prettier-vscode --force",
-    "vscode-insiders": "code-insiders --install-extension shalldie.background dracula-theme.theme-dracula --force && code-insiders --install-extension dracula-theme.theme-dracula --force && code-insiders --install-extension pkief.material-icon-theme --force && code-insiders --install-extension dbaeumer.vscode-eslint --force && code-insiders --install-extension esbenp.prettier-vscode --force",
-    "install-clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+    "cfg": "code --install-extension dracula-theme.theme-dracula --force && code --install-extension pkief.material-icon-theme --force && code --install-extension dbaeumer.vscode-eslint --force && code --install-extension esbenp.prettier-vscode --force",
+    "clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
   "eslintConfig": {
     "extends": [

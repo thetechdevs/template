@@ -1,22 +1,28 @@
 import { Link, NavLink } from 'react-router-dom';
 import styles from '../../styles/NavbarStyles.module.scss';
 
-// load pages by on hover
-const About = () => import('../../routes/About');
-const Home = () => import('../../routes/Home');
+// load pages by on hover (Eager Loading)
+const about = () => import('../../routes/About');
+const home = () => import('../../routes/Home');
 
 const Navbar = () => (
     <main className={styles.navbar}>
-        <Link exact to="/">
+        <Link to="/">
+            {/* Image Optimize by lazy loading */}
             <img loading="lazy" src="/logo192.png" alt="logo" height="30px" />
         </Link>
 
         <section>
-            <NavLink exact to="/" onHover={<Home />} activeClassName={styles.selected}>
+            <NavLink exact to="/" onMouseOver={() => home()} activeClassName={styles.selected}>
                 Home
             </NavLink>
-            <NavLink exact to="/result" onHover={<About />} activeClassName={styles.selected}>
-                Result
+            <NavLink
+                exact
+                to="/about"
+                onMouseOver={() => about()}
+                activeClassName={styles.selected}
+            >
+                About
             </NavLink>
         </section>
     </main>

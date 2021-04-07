@@ -10,7 +10,7 @@ const Info = () => (
             className={styles.home__logo}
         >
             <img
-                loading="lazy"
+                loading="lazy" // Image Optimize by lazy loading
                 src={reactLogo}
                 alt="React Logo"
                 className={styles.home__reactLogo}
