@@ -23,17 +23,19 @@ yarn create react-app my-app --template reactjs-basic
 Please follow the below instructions to run this project in your computer:
 
 1. Go to the inside of the project directory
+
    ```sh
    cd my-app
    ```
+
 2. Config vscode for best user experience and best practice
 
    ```sh
-   npm run config
+   npm run cfg
 
    or
 
-   yarn config
+   yarn cfg
    ```
 
 3. Run project
