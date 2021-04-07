@@ -1,13 +1,14 @@
 import { Link, NavLink } from 'react-router-dom';
 import styles from '../../styles/NavbarStyles.module.scss';
 
-// load pages by on hover
+// load pages by on hover (Eager Loading)
 const about = () => import('../../routes/About');
 const home = () => import('../../routes/Home');
 
 const Navbar = () => (
     <main className={styles.navbar}>
         <Link to="/">
+            {/* Image Optimize by lazy loading */}
             <img loading="lazy" src="/logo192.png" alt="logo" height="30px" />
         </Link>
 

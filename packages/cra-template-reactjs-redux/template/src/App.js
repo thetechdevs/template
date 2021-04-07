@@ -13,6 +13,7 @@ function App() {
         >
           The Tech Devs
         </a>
+        {/* Image Optimize by lazy loading */}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

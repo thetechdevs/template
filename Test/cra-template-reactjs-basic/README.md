@@ -29,11 +29,11 @@ Please follow the below instructions to run this project in your computer:
 2. Config vscode for best user experience and best practice
 
    ```sh
-   npm run vscode
+   npm run config
 
    or
 
-   yarn vscode
+   yarn config
    ```
 
 3. Run project
