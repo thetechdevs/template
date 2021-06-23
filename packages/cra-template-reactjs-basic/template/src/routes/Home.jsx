@@ -5,7 +5,7 @@ const Home = () => {
     const name = 'Home';
 
     return (
-        <Layout>
+        <Layout title="Home">
             <h1>{name} page</h1>
             <Info />
         </Layout>
